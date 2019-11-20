@@ -74,7 +74,7 @@ if myBirthDate.hasBirthday {
 let present = myBirthDate.hasBirthday ? "🎁" : "💩"
 
 //: ### Switch statements
-//: - Switch sattements in Swift are really *"pattern matching"*
+//: - Switch statements in Swift are really *"pattern matching"*
 //: - They can match `Bool`, `Range` and `enum`
 //: - Compared to other languages (Java, C) cases do not fall-trough by default
 let cake: Cake = .apple
@@ -158,7 +158,7 @@ protocol ReadyForDoomsday {
 }
 
 //: ### Classes
-//: - In Swift `classes` are reference types
+//: - In Swift `class` are reference types
 //: - Internaly a pointer is used to pass them around
 
 class Nation {
@@ -187,7 +187,7 @@ class America: Nation, ReadyForDoomsday {
             
             print("🚀 Launch in 3, 2, 1 ...")
         } else {
-            print("☝️ Ah-ah-a, Wrong code entered")
+            print("☝️ Ah-ah-a, wrong code entered")
         }
     }
 }
